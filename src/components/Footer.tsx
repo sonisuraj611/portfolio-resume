@@ -1,9 +1,8 @@
-
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { Github, Linkedin, Mail } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  
+
   return (
     <footer className="bg-navy py-8 border-t border-navy-lightest">
       <div className="container mx-auto px-4">
@@ -16,37 +15,35 @@ const Footer = () => {
               Building exceptional digital experiences
             </p>
           </div>
-          
+
           <div className="flex space-x-6">
-            <a 
-              href="https://github.com/" 
-              target="_blank" 
+            <a
+              href="https://github.com/sonisuraj611"
+              target="_blank"
               rel="noopener noreferrer"
               className="text-slate hover:text-teal transition-colors"
             >
               <Github size={20} />
             </a>
-            <a 
-              href="https://linkedin.com/" 
-              target="_blank" 
+            <a
+              href="https://www.linkedin.com/in/suraj-soni-3440471ba/"
+              target="_blank"
               rel="noopener noreferrer"
               className="text-slate hover:text-teal transition-colors"
             >
               <Linkedin size={20} />
             </a>
-            <a 
-              href="mailto:sonisuraj611@gmail.com" 
+            <a
+              href="mailto:sonisuraj611@gmail.com"
               className="text-slate hover:text-teal transition-colors"
             >
               <Mail size={20} />
             </a>
           </div>
         </div>
-        
+
         <div className="mt-8 pt-4 border-t border-navy-lightest text-center text-slate text-sm">
-          <p>
-            © {currentYear} Suraj Soni. All Rights Reserved.
-          </p>
+          <p>© {currentYear} Suraj Soni. All Rights Reserved.</p>
           <p className="mt-2 text-slate-light">
             Built with React & Tailwind CSS
           </p>

@@ -1,5 +1,4 @@
-
-import { MapPin, Mail, Phone } from 'lucide-react';
+import { MapPin, Mail, Phone } from "lucide-react";
 
 const About = () => {
   return (
@@ -11,22 +10,25 @@ const About = () => {
             <h2 className="heading text-2xl md:text-3xl">Get to know me</h2>
             <div className="space-y-4 text-slate-light">
               <p>
-                I'm an Ex NodeJS Developer with experience in creating robust web applications
-                using the MERN stack (MongoDB, Express, React, Node.js).
+                I'm an Ex NodeJS Developer with experience in creating robust
+                web applications using the MERN stack (MongoDB, Express, React,
+                Node.js).
               </p>
               <p>
-                I have a strong foundation in developing RESTful APIs, working with databases,
-                and implementing various features to enhance user experience. My experience at
-                Lattice Innovations has equipped me with skills to build efficient solutions and
-                tackle complex problems.
+                I have a strong foundation in developing RESTful APIs, working
+                with databases, and implementing various features to enhance
+                user experience. My experience at Lattice Innovations has
+                equipped me with skills to build efficient solutions and tackle
+                complex problems.
               </p>
               <p>
-                I'm passionate about creating clean, optimized code and continuously learning new
-                technologies to stay at the forefront of web development.
+                I'm passionate about creating clean, optimized code and
+                continuously learning new technologies to stay at the forefront
+                of web development.
               </p>
             </div>
           </div>
-          
+
           <div className="md:w-1/2">
             <h3 className="subheading">Contact Information</h3>
             <h2 className="heading text-2xl md:text-3xl">Reach Out</h2>
@@ -40,7 +42,7 @@ const About = () => {
                   <p className="text-slate-light">9992403913</p>
                 </div>
               </div>
-              
+
               <div className="flex items-start space-x-4">
                 <div className="w-10 h-10 rounded-full bg-navy-lightest flex items-center justify-center flex-shrink-0">
                   <Mail className="text-teal w-5 h-5" />
@@ -50,7 +52,7 @@ const About = () => {
                   <p className="text-slate-light">sonisuraj611@gmail.com</p>
                 </div>
               </div>
-              
+
               <div className="flex items-start space-x-4">
                 <div className="w-10 h-10 rounded-full bg-navy-lightest flex items-center justify-center flex-shrink-0">
                   <MapPin className="text-teal w-5 h-5" />
@@ -60,11 +62,11 @@ const About = () => {
                   <p className="text-slate-light">Rewari, Haryana</p>
                 </div>
               </div>
-              
+
               <div className="flex items-center space-x-5 pt-4">
-                <a 
-                  href="https://linkedin.com" 
-                  target="_blank" 
+                <a
+                  href="https://www.linkedin.com/in/suraj-soni-3440471ba/"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-navy-lightest flex items-center justify-center hover:bg-teal/10 transition-colors"
                 >
@@ -83,9 +85,9 @@ const About = () => {
                     <circle cx="4" cy="4" r="2"></circle>
                   </svg>
                 </a>
-                <a 
-                  href="https://github.com" 
-                  target="_blank" 
+                <a
+                  href="https://github.com/sonisuraj611"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-navy-lightest flex items-center justify-center hover:bg-teal/10 transition-colors"
                 >
