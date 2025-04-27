@@ -50,7 +50,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="public/uploads/resume.pdf"
+            href="/resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
