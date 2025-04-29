@@ -50,7 +50,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="/resume.pdf"
+            href="https://drive.google.com/drive/folders/1M47vGdpByrvSgizYDGJwa446kDciWSXh?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -92,7 +92,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="/resume.pdf"
+            href="https://drive.google.com/drive/folders/1M47vGdpByrvSgizYDGJwa446kDciWSXh?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setIsOpen(false)}
